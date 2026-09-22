@@ -7,7 +7,7 @@ export const Route = createFileRoute("/")({
   component: Landing,
   head: () => ({
     meta: [
-      { title: "CreditWise — AI Loan Approval Intelligence" },
+      { title: "CreditWise" },
       {
         name: "description",
         content: "Instantly predict loan approval chances with explainable machine learning.",
