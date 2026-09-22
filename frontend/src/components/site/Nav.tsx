@@ -1,6 +1,6 @@
 import { Link } from "@tanstack/react-router";
 import { motion } from "framer-motion";
-import { Moon, Sun, Sparkles } from "lucide-react";
+import { Moon, Sun, Brain } from "lucide-react";
 import { useTheme } from "@/lib/theme";
 
 export function Nav() {
@@ -16,7 +16,7 @@ export function Nav() {
         <div className="glass rounded-2xl flex items-center justify-between px-4 py-2.5 shadow-soft">
           <Link to="/" className="flex items-center gap-2 font-semibold tracking-tight">
             <span className="inline-flex h-7 w-7 items-center justify-center rounded-lg bg-primary text-primary-foreground">
-              <Sparkles className="h-4 w-4" />
+              <Brain className="h-4 w-4" />
             </span>
             CreditWise
           </Link>
