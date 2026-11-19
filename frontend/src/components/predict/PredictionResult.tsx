@@ -48,7 +48,7 @@ export function PredictionResult({ result }: { result: PredictResult }) {
               ) : (
                 <AlertCircle className="h-3.5 w-3.5" />
               )}
-              {approved ? "Approved" : "Needs improvement"}
+             {approved ? "Model predicts: Approved" : "Model predicts: Rejected"}
             </div>
             <h2 className="mt-4 text-4xl sm:text-5xl font-semibold tracking-tight">
               {pct}%{" "}
